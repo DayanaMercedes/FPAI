@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FPAI.NewPage5"
+             Title="Mace Windu">
+
+    <AbsoluteLayout>
+        <!-- Imagen añadida, tamaño reducido -->
+
+        <Image Source="mace.png"
+       Aspect="AspectFill"
+       AbsoluteLayout.LayoutBounds="0,0,1,1"
+       AbsoluteLayout.LayoutFlags="All"/>
+
+        <!-- Contenido sobre la imagen -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0.5,0.65,1,0.35"
+                    AbsoluteLayout.LayoutFlags="All"
+                    Padding="20">
+            <StackLayout Spacing="20">
+                <!-- Título principal -->
+                <Label Text="2. Mace Windu"
+                       TextColor="MediumPurple"
+                       FontSize="26"
+                       FontAttributes="Bold"
+                       Margin="0,10"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Información sobre el sable de luz -->
+                <Label Text="Color del sable de luz: Púrpura"
+                       TextColor="MediumOrchid"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Rol en el juego -->
+                <Label Text="Rol en el Juego: Maestro Jedi ofensivo con tácticas avanzadas y habilidades de liderazgo."
+                       TextColor="SlateBlue"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Midi-Clorianos -->
+                <Label Text="Midi-Clorianos: 15,000-20,000 (Altamente elevados)"
+                       TextColor="Goldenrod"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Descripción -->
+                <Label Text="Descripción: Alta concentración de midi-clorianos, permite ejecutar técnicas avanzadas y controlar la Fuerza con gran precisión."
+                       TextColor="LightSteelBlue"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,10"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Habilidades Especiales -->
+                <Label Text="Habilidades Especiales:"
+                       TextColor="MediumPurple"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Margin="0,10"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Vaapad -->
+                <Label Text="Vaapad: Estilo de combate agresivo y fluido."
+                       TextColor="DarkOrchid"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Ataques devastadores que pueden atravesar defensas y desestabilizar a los enemigos."
+                       TextColor="DarkOrchid"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Ondas de Choque -->
+                <Label Text="Ondas de Choque: Crea ondas de energía de Fuerza."
+                       TextColor="Plum"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Abarca áreas amplias para controlar multitudes y despejar zonas."
+                       TextColor="Plum"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Estratega Táctico -->
+                <Label Text="Estratega Táctico: Mejora las tácticas del equipo."
+                       TextColor="RoyalBlue"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Ofrece bonificaciones y mejora la coordinación del equipo durante las misiones."
+                       TextColor="RoyalBlue"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>

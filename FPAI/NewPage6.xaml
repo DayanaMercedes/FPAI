@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FPAI.NewPage6"
+             Title="Yoda">
+
+    <AbsoluteLayout>
+        <!-- Imagen añadida, tamaño reducido -->
+        <Image Source="yoda.png"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0,0,1,1"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <!-- Contenido sobre la imagen -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0.5,0.65,1,0.35"
+                    AbsoluteLayout.LayoutFlags="All"
+                    Padding="20">
+            <StackLayout Spacing="20">
+                <!-- Título principal -->
+                <Label Text="3. Yoda"
+                       TextColor="LimeGreen"
+                       FontSize="26"
+                       FontAttributes="Bold"
+                       Margin="0,10"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Información sobre el sable de luz -->
+                <Label Text="Color del sable de luz: Verde"
+                       TextColor="LightGreen"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Rol en el juego -->
+                <Label Text="Rol en el Juego: Sabio Jedi defensor con habilidades de apoyo y mentoría."
+                       TextColor="ForestGreen"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Midi-Clorianos -->
+                <Label Text="Midi-Clorianos: 25,000-30,000 (Extremadamente altos)"
+                       TextColor="YellowGreen"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Descripción -->
+                <Label Text="Descripción: Concentración extremadamente alta de midi-clorianos, proporciona un conocimiento profundo de la Fuerza y habilidades excepcionales."
+                       TextColor="PaleGreen"
+                       FontSize="20"
+                       FontAttributes="Italic"
+                       Margin="0,10"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Habilidades Especiales -->
+                <Label Text="Habilidades Especiales:"
+                       TextColor="DarkOliveGreen"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Margin="0,10"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Telequinesis Avanzada -->
+                <Label Text="Telequinesis Avanzada: Manipula objetos y enemigos con gran control."
+                       TextColor="OliveDrab"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Levanta y mueve objetos grandes, resuelve puzzles complejos y controla el campo de batalla."
+                       TextColor="OliveDrab"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Defensa Maestra -->
+                <Label Text="Defensa Maestra: Técnicas avanzadas para bloquear ataques."
+                       TextColor="DarkSeaGreen"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Proporciona una defensa robusta, bloquea ataques y permite contraataques precisos."
+                       TextColor="DarkSeaGreen"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Sabiduría Estratégica -->
+                <Label Text="Sabiduría Estratégica: Ofrece consejos y guía."
+                       TextColor="MediumSeaGreen"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Mejora la toma de decisiones y proporciona estrategias efectivas."
+                       TextColor="MediumSeaGreen"
+                       FontSize="18"
+                       Margin="0,5"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>

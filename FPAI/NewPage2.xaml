@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FPAI.NewPage2"
+             Title="MENU">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label 
+            Text="CONTENIDO"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button
+    Text="1"
+            Clicked="GotoNewPage3"/>
+        <Button
+Text="2"
+        Clicked="GotoNewPage4"/>
+        <Button
+Text="3"
+        Clicked="GotoNewPage5"/>
+        <Button
+Text="4"
+        Clicked="GotoNewPage6"/>
+        <Button
+Text="5"
+        Clicked="GotoNewPage7"/>
+        <Button
+Text="6"
+        Clicked="GotoNewPage8"/>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FPAI.NewPage3"
+             Title="1">
+
+    <AbsoluteLayout>
+ 
+        <Image Source="fs.png"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0,0,1,1"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+     
+        <Label Text="STAR WARS"
+               VerticalOptions="Start" 
+               HorizontalOptions="Center" 
+               AbsoluteLayout.LayoutBounds="0.5,0.1,-1,-1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               FontSize="60"
+               FontAttributes="Bold"
+               TextColor="Yellow"
+               Padding="20"
+               Margin="0,10,0,0"
+               FontFamily="Comic Sans MS"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center">
+            <Label.Shadow>
+                <Shadow Brush="Blue"
+                        Opacity="1"
+                        Radius="50"
+                        Offset="5,5"/>
+            </Label.Shadow>
+        </Label>
+
+        <ScrollView AbsoluteLayout.LayoutBounds="0.5,0.5,1,0.5"
+                    AbsoluteLayout.LayoutFlags="All"
+                    Padding="20">
+            <StackLayout Spacing="15">
+                <Label Text="El universo de Star Wars es un vasto escenario de aventura y conflicto. La historia principal se desarrolla en una galaxia muy lejana, donde las fuerzas en conflicto incluyen la República Galáctica, el Imperio Galáctico, y la Rebelión. Los Jedi, guardianes de la paz, se enfrentan a los Sith, quienes buscan controlar la galaxia utilizando el Lado Oscuro de la Fuerza. Los personajes clave incluyen a Luke Skywalker, quien se convierte en un Jedi y lucha contra Darth Vader, el Sith más temido. Leia Organa, una valiente líder de la Rebelión, también juega un papel crucial en la lucha contra el Imperio. La serie explora temas como la lucha entre el bien y el mal, el sacrificio, y la búsqueda del equilibrio en la Fuerza. Con épicas batallas, complejas intrigas políticas y personajes inolvidables, Star Wars sigue siendo una influencia importante en la cultura popular."
+                       TextColor="White"
+                       FontSize="15"
+                       LineBreakMode="WordWrap"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       WidthRequest="320"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       FontFamily="Arial Narrow"
+                       FontAttributes="Italic"/>
+            
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+
+</ContentPage>

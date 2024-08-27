@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FPAI.NewPage4"
+             Title="Luke Skywalker">
+
+    <AbsoluteLayout>
+        <!-- Imagen añadida -->
+        <Image Source="luke.png"
+       Aspect="AspectFill"
+       AbsoluteLayout.LayoutBounds="0,0,1,1"
+       AbsoluteLayout.LayoutFlags="All"/>
+
+        <!-- Contenido sobre la imagen -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0.5,0.5,1,0.5"
+                    AbsoluteLayout.LayoutFlags="All"
+                    Padding="20">
+            <StackLayout Spacing="15">
+                <!-- Título principal -->
+                <Label Text="1. Luke Skywalker"
+                       TextColor="LightSkyBlue"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Información sobre el sable de luz -->
+                <Label Text="Color del sable de luz: Azul"
+                       TextColor="LightCoral"
+                       FontSize="18"
+                       FontAttributes="Italic"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Rol en el juego -->
+                <Label Text="Rol en el Juego: Héroe Jedi balanceado y líder estratégico."
+                       TextColor="LightGreen"
+                       FontSize="18"
+                       FontAttributes="Italic"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Midi-Clorianos -->
+                <Label Text="Midi-Clorianos: 20,000-25,000 (Altamente elevados)"
+                       TextColor="Gold"
+                       FontSize="18"
+                       FontAttributes="Italic"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Descripción -->
+                <Label Text="Descripción: Una de las concentraciones más altas de midi-clorianos, similar a la de su padre Anakin."
+                       TextColor="LightSteelBlue"
+                       FontSize="18"
+                       FontAttributes="Italic"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Habilidades Especiales -->
+                <Label Text="Habilidades Especiales:"
+                       TextColor="MediumPurple"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Telequinesis -->
+                <Label Text="Telequinesis: Mueve objetos y enemigos a distancia."
+                       TextColor="Salmon"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Manipula el entorno para resolver puzzles, atacar desde lejos y crear barreras defensivas."
+                       TextColor="Salmon"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Sentido de la Fuerza -->
+                <Label Text="Sentido de la Fuerza: Detecta presencias y emociones."
+                       TextColor="PowderBlue"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Revela enemigos ocultos, anticipa ataques y ayuda a resolver desafíos."
+                       TextColor="PowderBlue"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <!-- Estilo de Combate Ágil -->
+                <Label Text="Estilo de Combate Ágil: Combina ataques rápidos y precisos."
+                       TextColor="LightGreen"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Uso en Juego: Realiza combos rápidos y bloqueos eficaces en combates intensos."
+                       TextColor="LightGreen"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>

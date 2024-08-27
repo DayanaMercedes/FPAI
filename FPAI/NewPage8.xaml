@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FPAI.NewPage8"
+             Title="Cuestionario">
+
+    <AbsoluteLayout>
+        <!-- Pregunta -->
+        <Label x:Name="QuestionLabel"
+               Text="1. ¿Cuál es el color del sable de luz de Luke Skywalker?"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" 
+               AbsoluteLayout.LayoutBounds="0.5,0.6,1,0.2"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <!-- Botones de respuestas -->
+        <Button x:Name="Button1"
+                Text="Azul"
+                Clicked="OnAnswerButtonClicked"
+                AbsoluteLayout.LayoutBounds="0.5,0.4,0.8,0.1"
+                AbsoluteLayout.LayoutFlags="All"/>
+
+        <Button x:Name="Button2"
+                Text="Verde"
+                Clicked="OnAnswerButtonClicked"
+                AbsoluteLayout.LayoutBounds="0.5,0.3,0.8,0.1"
+                AbsoluteLayout.LayoutFlags="All"/>
+
+        <Button x:Name="Button3"
+                Text="Rojo"
+                Clicked="OnAnswerButtonClicked"
+                AbsoluteLayout.LayoutBounds="0.5,0.2,0.8,0.1"
+                AbsoluteLayout.LayoutFlags="All"/>
+
+        <Button x:Name="Button4"
+                Text="Naranja"
+                Clicked="OnAnswerButtonClicked"
+                AbsoluteLayout.LayoutBounds="0.5,0.1,0.8,0.1"
+                AbsoluteLayout.LayoutFlags="All"/>
+
+        <!-- Mensaje de retroalimentación -->
+        <Label x:Name="FeedbackLabel"
+               Text=""
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               AbsoluteLayout.LayoutBounds="0.5,0.05,1,0.1"
+               AbsoluteLayout.LayoutFlags="All"
+               TextColor="Red"/>
+
+        <!-- Botón para la siguiente pregunta -->
+        <Button x:Name="NextButton"
+                Text="Siguiente"
+                Clicked="OnNextButtonClicked"
+                AbsoluteLayout.LayoutBounds="0.5,0.05,0.5,0.1"
+                AbsoluteLayout.LayoutFlags="All"
+                IsVisible="False"/>
+    </AbsoluteLayout>
+</ContentPage>
